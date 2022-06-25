@@ -12,9 +12,4 @@ fun main(args: Array[String]) {
 
     // println() prints the following line to the output screen
     println("You entered: $integer")
-};;
-hello
-how 
-good
-dd
-d
+}
