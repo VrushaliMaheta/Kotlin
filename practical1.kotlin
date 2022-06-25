@@ -13,3 +13,21 @@ fun main(args: Array<String>) {
     // println() prints the following line to the output screen
     println("You entered: $integer");
 }
+ println("it is kotlin programming")
+ 
+    print("Enter an operator (+, -, *, /): ")
+    val operator = reader.next()[0]
+
+    val result: Double
+
+    when (operator) {
+        '+' -> result = first + second
+        '-' -> result = first - second
+        '*' -> result = first * second
+        '/' -> result = first / second
+        // operator doesn't match any case constant (+, -, *, /)
+        else -> {
+            System.out.printf("Error! operator is not correct")
+            return
+        }
+    }
